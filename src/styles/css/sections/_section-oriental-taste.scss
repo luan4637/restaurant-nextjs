@@ -1,0 +1,16 @@
+.section-oriental-taste {
+    padding-top: 5em;
+    padding-bottom: 2em;
+    background-image: url(../images/bg-curve-top.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .section-oriental-taste {
+        padding-top: 2em;
+        background-position: 50% -100%;
+        background-size: 190%;
+    }
+}

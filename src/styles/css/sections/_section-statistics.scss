@@ -1,0 +1,46 @@
+.section-statistics {
+    background-color: #303030;
+    background-image: url("../images/bg-icons.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+
+    .section-intro {
+        color: #fff;
+    }
+}
+
+.statistic-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 0.2em solid #fff;
+
+    i, span {
+        display: block;
+        font-style: normal;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 2em;
+        color: #ffc200;
+    }
+
+    span {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .statistic-item {
+        font-size: 1.5em;
+    }
+}

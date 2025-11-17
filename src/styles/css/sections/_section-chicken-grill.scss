@@ -1,0 +1,25 @@
+.section-chicken-grill {
+    margin-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background-image: url(../images/bg-curve-bottom.png);
+    background-position: 0 100%;
+    background-size: 100% auto;
+
+    .dish-pic {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-chicken-grill {
+        padding-bottom: 2em;
+        margin-bottom: 4em;
+        background-position: 0% 100%;
+        background-size: 200%;
+
+        .dish {
+            flex-direction: column-reverse;
+        }
+    }
+}

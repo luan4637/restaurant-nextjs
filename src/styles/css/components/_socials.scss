@@ -1,0 +1,13 @@
+.socials li {
+    display: inline-block;
+    margin-right: 0.3em;
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+
+        i {
+            font-size: 2em;
+        }
+    }
+}

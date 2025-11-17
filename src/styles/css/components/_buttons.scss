@@ -1,0 +1,27 @@
+.btn {
+    padding: 0.6em 2em;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0.3em;
+    border: 0;
+    cursor: pointer;
+
+    &-primary {
+        transition: box-shadow 0.3s;
+        background-color: #ffc200;
+        color: #333;
+
+        &:hover {
+            box-shadow: 0 0 0.6em rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+
+.btn-icon {
+    color: #fff;
+
+    &.icon-search {
+        font-size: 2em;
+    }
+}

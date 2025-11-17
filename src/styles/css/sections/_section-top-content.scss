@@ -1,0 +1,48 @@
+.section-top-content {
+    height: 32em;
+    max-height: 100vh;
+    overflow: hidden;
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    color: #fff;
+
+    &-intro {
+        margin-top: 5em;
+        margin-left: 28em;
+        margin-right: 7em;
+
+        h1 {
+            margin: 0 0 0.7em 0;
+            font-size: 3em;
+            font-family: "Bodoni Moda", sans-serif;
+            line-height: 1.2;
+            color: #ffc200;
+        }
+
+        p {
+            margin: 2em 0;
+            line-height: 1.5;
+        }
+
+        a {
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-top-content {
+        background-position: -8em top;
+
+        &-intro {
+            margin-left: 0;
+            margin-right: 0;
+
+            h1, p {
+                text-shadow: 0 0 0.1em #000;
+            }
+        }
+    }
+}
