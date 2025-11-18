@@ -1,0 +1,15 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/home/partials/orientalTaste": [
+      "static/chunks/eff43c4faee07436.js",
+      "static/chunks/82812480168d0966.js",
+      "static/chunks/turbopack-040846120a8aa644.js"
+    ]
+  },
+  "ampFirstPages": []
+}
