@@ -4,7 +4,7 @@ const nextConfig = {
     // devIndicators: false,
     // output: 'standalone',
     // distDir: 'dist/out',
-    // assetPrefix: '/restaurant-nextjs',
+    assetPrefix: '/restaurant-nextjs',
     // compiler: {
     //     styledComponents: {
     //         ssr: false,

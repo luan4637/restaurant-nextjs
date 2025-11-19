@@ -1,37 +1,42 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/04d3d2d3a895caaf.js"
+    "static/chunks/abc016c46f61d7ca.js"
   ],
   "/_error": [
-    "static/chunks/4fa83fa0f2afa2cc.js"
+    "static/chunks/47281a3b2f184ee8.js"
   ],
   "/home": [
-    "static/chunks/f76bdf223f8b3612.js"
+    "static/chunks/85e83f3de2873877.js"
   ],
   "/home/partials/ChickenGrill": [
-    "static/chunks/f0cddcb04e016cd1.js"
+    "static/chunks/a267406b5fe669a4.js"
   ],
   "/home/partials/Subscribe": [
-    "static/chunks/ea3c5ef55ef2ebe5.js"
+    "static/chunks/2e3f3e83d250c484.js"
   ],
   "/home/partials/bestSeller": [
-    "static/chunks/4249ae612e54c933.js"
+    "static/chunks/5846700004f3029a.js"
   ],
   "/home/partials/orientalTaste": [
-    "static/chunks/e2a01aa01009f4d6.js"
+    "static/chunks/764d11511b9a37e1.js"
   ],
   "/home/partials/signature": [
-    "static/chunks/36816e4b38bd7353.js"
+    "static/chunks/262ed5631e8d4085.js"
   ],
   "/home/partials/statistics": [
-    "static/chunks/8715a642d519bf17.js"
+    "static/chunks/0f70d92c114c3c0f.js"
   ],
   "/home/partials/topContent": [
-    "static/chunks/e37bf680fd105725.js"
+    "static/chunks/0624c11addf8adf1.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/restaurant-nextjs/_next/:path+",
+        "destination": "/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
